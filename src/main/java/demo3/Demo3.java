@@ -10,6 +10,7 @@ public class Demo3 {
 		RestAssured.baseURI="https://rahulshettyacademy.com";//we will specify base URI
 		
 		RequestSpecification res=RestAssured.given();//declared the request object
+	
 		
 		Response response=  res.queryParam("key","qaclick123")
 				.headers("Content-Type","application/json")
